@@ -1,4 +1,4 @@
-# Introduction to version control with Git 
+# NAME OF THE WORKSHOP
 
 Welcome to the **XXXXXXX**! for XXXX, on XXXXXX.  This repository contains instructions for XXXXX
 
