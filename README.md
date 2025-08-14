@@ -1,4 +1,4 @@
-# NAME OF THE WORKSHOP
+# How RDM support staff can use the API of 4TU.ResearchData 
 
 Welcome to the **XXXXXXX**! for XXXX, on XXXXXX.  This repository contains instructions for XXXXX
 
@@ -31,6 +31,7 @@ Before attending the workshop, please ensure you have:
 
 ## 🔗 Resources
 
+- Two private tokens in data.4tu.nl (main enviroment) and in next.data.4tu.nl (test environment)
 
 ## 💡 License
 This workshop material is licensed under **GNU AFFERO GENERAL PUBLIC LICENSE Version 3**. Feel free to share and modify the lesson according your needs.
