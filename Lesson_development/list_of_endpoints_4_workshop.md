@@ -27,12 +27,7 @@
 ### Searching accounts within your institutions
 - "https://data.4tu.nl/v2/account/institution" (GET) This endpoint requires admin privileges 
 - "https://data.4tu.nl/v3/groups" (GET) This endpoint lists the groups ID of the institutions that you can use to filter the output of v2/articles/
-- One option is to use the python package `coonect4tu` (https://github.com/leilaicruz/connect4tu) to retrieve datasets from a specific organization
-
-### Cloning a git repository 
-
-- "https://data.4tu.nl/v3/datasets/git-uuid.git" (`git clone ENDPOINT`, where can I see the git-uuid? ) 
-
+- One option is to use the python package `connect4tu` (https://github.com/leilaicruz/connect4tu) to retrieve datasets from a specific organization
 
 ### Uploading 
 
@@ -40,6 +35,8 @@
 #### Metadata uploading
 
 - "https://next.data.4tu.nl/v2/account/articles" (POST, TOKEN)
+  - the authors field is only possible via this endpoint, to append more authors it should be used:
+  - "https://next.data.4tu.nl/v2/account/articles/dataset-id/authors" (POST, TOKEN)
 - "https://next.data.4tu.nl/v2/account/articles/dataset-id" (PUT, TOKEN)  Update metadata with other fields that are not exposed in the v2/account/articles like embargo_options
 
 
