@@ -24,6 +24,11 @@
 - "https://data.4tu.nl/v2/account/authors/search" (POST, TOKEN)
 - "https://data.4tu.nl/v2/account/authors/author-id" (GET, TOKEN)
 
+### Searching accounts within your institutions
+- "https://data.4tu.nl/v2/account/institution" (GET) This endpoint requires admin privileges 
+- "https://data.4tu.nl/v3/groups" (GET) This endpoint lists the groups ID of the institutions that you can use to filter the output of v2/articles/
+- One option is to use the python package `coonect4tu` (https://github.com/leilaicruz/connect4tu) to retrieve datasets from a specific organization
+
 ### Cloning a git repository 
 
 - "https://data.4tu.nl/v3/datasets/git-uuid.git" (`git clone ENDPOINT`, where can I see the git-uuid? ) 
@@ -122,3 +127,5 @@ curl -X PUT "https://next.data.4tu.nl/v3/datasets/${DATASET_ID}/submit-for-revie
 - "https://data.4tu.nl/iiif/v3/<file_uuid>"  (GET, context of the image)
 
     - example: https://data.4tu.nl/iiif/v3/312f1d4a-2b83-491c-b906-a9d5497f6c9d
+- "https://data.4tu.nl/iiif/v3/c2a8d5ce-c4ea-46ed-bcdc-e35033e908a8/1/manifest" 
+  - To open it in an editor (https://manifest-editor.digirati.services/?tab=recent)
