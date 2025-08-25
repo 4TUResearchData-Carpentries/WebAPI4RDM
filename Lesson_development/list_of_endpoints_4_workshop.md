@@ -1,6 +1,6 @@
 ## Endpoints
 
-### Fetching public data
+### Fetching  data
 
 #### Datasets and software
 
