@@ -7,7 +7,7 @@ Welcome to the **4TU.ResearchData API for Data supporters** workshop!
 
 ## 🚀 Workshop Overview
 
-The idea of this workshop is to familiarize them with the main endpoints of the WebAPI for requesting, downloading, searching, and uploading datasets and software to the 4TU.ResearchData repository. The nain target audience is the RDM support staff from the Dutch technical universities
+The idea of this workshop is to familiarize them with the main endpoints of the WebAPI for requesting, downloading, searching, and uploading datasets and software to the 4TU.ResearchData repository. The main target audience is the RDM support staff from the Dutch technical universities
 
 The proposed schedule for a 3-hour session is:
 
