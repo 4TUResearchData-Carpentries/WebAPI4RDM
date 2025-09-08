@@ -8,15 +8,13 @@
   "image": "https://your.site/course-image.png",
   "provider": {
     "@type": "Organization",
-    "name": "YOUR INSTITUTION OR ORGANIZATION",
-    "url": "https://your.org",
-    "sameAs": "https://your.org/about"
+    "name": "4TU.ResearchData",
+    "url": "https://data.4tu.nl"
   },
   "educationalLevel": "Beginner",
   "audience": [
-    "PhD students",
-    "Post-docs",
-    "Researchers"
+    "Data stewards",
+    "Data managers"
   ],
   "timeRequired": "P2D",
   "coursePrerequisites": [
@@ -30,42 +28,13 @@
     }
   ],
   "teaches": [
-    "Initialize and configure a Git repository",
-    "Use branching and merging for collaboration",
-    "Set up and work with remotes",
-    "Handle merge conflicts",
-    "Deposit data in 4TU.ResearchData"
-  ],
-  "hasPart": [
-    {
-      "@type": "CourseSection",
-      "position": 1,
-      "name": "Local Git workflow",
-      "description": "create, configure, commit locally; navigate history"
-    },
-    {
-      "@type": "CourseSection",
-      "position": 2,
-      "name": "Remote collaboration",
-      "description": "SSH keys, push/pull, forking and pull requests"
-    },
-    {
-      "@type": "CourseSection",
-      "position": 3,
-      "name": "Conflict management",
-      "description": "understand and resolve merge conflicts"
-    },
-    {
-      "@type": "CourseSection",
-      "position": 4,
-      "name": "4TU.ResearchData introduction",
-      "description": "how to deposit and retrieve data/software"
-    }
+    "Fetching and uploading datasets to 4TU.ResearchData",
+    "Using curl requests to the API"
   ],
   "hasCourseInstance": [
     {
       "@type": "CourseInstance",
-      "name": "June 2025 — In-Person Workshop",
+      "name": "API for RDM Workshop",
       "description": "Two-day, hands-on introductory workshop on Git and open science best practices.",
       "courseMode": "InPerson",
       "startDate": "2025-06-17T09:30:00+02:00",
@@ -73,7 +42,7 @@
       "inLanguage": "en-GB",
       "location": {
         "@type": "Place",
-        "name": "4TU Center, Eindhoven",
+        "name": "TU Delft Library",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "Campuslaan 99",
@@ -86,20 +55,10 @@
       "instructor": [
         {
           "@type": "Person",
-          "name": "Dr. Jane Doe",
-          "url": "https://janedoe.com",
-          "email": "jane.doe@your.org"
+          "name": "Dr. Leila Iñigo de la Cruz",
+          "email": "l.m.inigodelacruz@tudelft.nl"
         }
-      ],
-      "offers": {
-        "@type": "Offer",
-        "url": "https://your.site/register",
-        "price": "150.00",
-        "priceCurrency": "EUR",
-        "availability": "https://schema.org/InStock",
-        "validFrom": "2025-04-01T00:00:00+02:00",
-        "enrollmentDeadline": "2025-06-10"
-      }
-    }
+      ]
+        }
   ]
 }

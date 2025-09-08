@@ -7,10 +7,15 @@ Welcome to the **4TU.ResearchData API for Data supporters** workshop!
 
 ## 🚀 Workshop Overview
 
-The idea for this workshop to the RDM support staff from the ducth technical universities is that they know the main endpoints of the weabpi for requesting, download, sarch and upload datasets and software to the 4TU.ResearchData repository. The proposed schedule for a time frame of 3 hours is:
-- Intro (10 mins)
-- Hands on practice with the endpoints in the terminal (max 2 hours with one break)
-- Time for questions and to solve projects/questions/issues they already may have in their faculty. (1 hour)
+The idea of this workshop is to familiarize them with the main endpoints of the WebAPI for requesting, downloading, searching, and uploading datasets and software to the 4TU.ResearchData repository. The nain target audience is the RDM support staff from the Dutch technical universities
+
+The proposed schedule for a 3-hour session is:
+
+Introduction (10 minutes)
+
+Hands-on practice with the endpoints in the terminal (up to 2 hours, including one break)
+
+Discussion and troubleshooting: time for questions and for addressing projects, issues, or challenges participants may already have within their faculties (1 hour)
 
 ## 📅 Schedule
 
