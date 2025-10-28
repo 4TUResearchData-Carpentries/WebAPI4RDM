@@ -33,7 +33,7 @@ Main topics:
 Before attending the workshop, please ensure you have:
 
 
--(Required) Two private tokens in data.4tu.nl (main enviroment) and in next.data.4tu.nl (test environment)
+- (Required) Two private tokens in data.4tu.nl (main enviroment) and in next.data.4tu.nl (test environment)
 - The `yq` a command-line YAML processor (similar syntax to `jq`).
     - Linux
     ```bash
@@ -56,7 +56,7 @@ Before attending the workshop, please ensure you have:
       
 
 
--(Optional but nice to have) The `jq` program to render nicely json outputs:
+- (Optional but nice to have) The `jq` program to render nicely json outputs:
     - Linux
     ```bash
     sudo apt-get update

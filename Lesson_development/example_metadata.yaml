@@ -24,6 +24,9 @@ authors: [{ "first_name": "John" ,"full_name": "John Doe","last_name": "Doe", "o
 # conference contribution, media, dataset, poster, journal contribution, presentation, thesis, software.
 defined_type: "dataset"
 
+## requested codecheck
+requested_codecheck: 0
+
 # One-liner to cite funding.
 funding: "Funded by the XYZ Grant"
 

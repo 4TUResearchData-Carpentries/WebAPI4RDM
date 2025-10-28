@@ -90,6 +90,7 @@ From the validation logic:
 * `language` — string code (e.g. `"en"`).
 * `categories` — array of category IDs (must be valid in the system).
 * `resource_doi` — must be a valid DOI.
+* `requested_codecheck` — integer, either `0` (no codecheck) or `1` (request codecheck for software).
 
 Other fields (`resource_title`, `contributors`, `geolocation`, embargo options, etc.) are optional but can be included.
 
@@ -110,7 +111,8 @@ curl -X PUT "https://next.data.4tu.nl/v3/datasets/${DATASET_ID}/submit-for-revie
     "categories": [123, 456],
     "agreed_to_deposit_agreement": true,
     "agreed_to_publish": true,
-    "group_id": 1
+    "group_id": 1,
+    "requested_codecheck": 0
   }'
 ```
 
